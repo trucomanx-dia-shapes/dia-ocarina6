@@ -1,39 +1,33 @@
-# Dia-Shapes para tabs de ocarina de 6 agujeros
+# Dia-Shapes for 6-hole ocarina tabs
 
-## Cria/compila os shapes
-Cria os arquivos *.shape e *.png. 
+![logo](screenshot.png)
 
-	make shapes
 
-## Eliminar arquivos criados
-Elimina os arquivos *.shape e *.png.
+## Install/uninstall shapes in the Dia directory 
+Manual installation of the package in Dia. Installation is done in the `~/.dia` directory.
 
-	make clean
-
-## Instala/desinstala os shapes no directorio de Dia 
-Instala el paquete gafieira-notation em Dia, se necessário primeiro faz `make shapes`.
-A instalação é feita no diretório `~/.dia`.
-
+    make shapes
 	make install
 
-Pelo contrario, para desinstalar usamos:
+On the contrary, to uninstall we use:
 
     make uninstall
 
-A desinstalação é feita no diretório `~/.dia`.
+Uninstallation is done in the `~/.dia` directory.
 
-## Executa Dia
+Finally, if desire, deletes *.shape and *.png files.
 
-	make run
+	makeup clean
 
-## Criar um arquivo comprimido do projeto
-Cria um arquivo em `dist/gafieira-notation-VERSION.tar.gz` onde `VERSION` é a versão atual do projeto.
+## Create a release
+
+### Compressed file
+Creates a file at `dist/dia-*-VERSION.tar.gz` where `VERSION` is the current version of the project.
 
 	make dist
 
-## Criar um arquivo deb do projeto
-Cria um arquivo em `deb/gafieira-notation-VERSION_all.deb` onde `VERSION` é a versão atual do projeto.
+### DEB file
+Creates a file in `deb/dia-*-VERSION_all.deb` where `VERSION` is the current version of the project.
 
 	make deb
-
 
