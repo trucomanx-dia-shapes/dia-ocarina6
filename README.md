@@ -1,8 +1,9 @@
-# Dia-Shapes for 6-hole ocarina tabs
+# dia-ocarina6
 
 ![logo](screenshot.png)
 
-
+## Download
+    
 ## Manual install/uninstall shapes in the Dia directory
 
 ### Install
@@ -26,11 +27,11 @@ Finally, if desired, delete the *.shape and *.png files.
 ## Create a release
 
 ### Compressed file
-Creates a file at `dist/dia-*-VERSION.tar.gz` where `VERSION` is the current version of the project.
+Creates a file at `dist/dia-ocarina6-VERSION.tar.gz` where `VERSION` is the current version of the project.
 
     make dist
 
 ### DEB file
-Creates a file in `deb/dia-*-VERSION_all.deb` where `VERSION` is the current version of the project.
+Creates a file in `deb/dia-ocarina6-VERSION_all.deb` where `VERSION` is the current version of the project.
 
     make deb
