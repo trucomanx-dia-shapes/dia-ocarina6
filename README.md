@@ -3,6 +3,8 @@
 ![logo](screenshot.png)
 
 ## Download
+
+To download, go to the [releases page](https://github.com/trucomanx-dia-shapes/dia-ocarina6/releases).
     
 ## Manual install/uninstall shapes in the Dia directory
 
